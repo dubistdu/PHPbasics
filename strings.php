@@ -20,4 +20,8 @@ echo "$a + $a";
 // php does not care about white spaces
 // concatenating assignment operator ('.='), which appends the argument on the right side to the argument on the left side
 
+$myName="Jasmine";
+$myName.=" Frantz";
+$myName.=" ,Mom!";
+echo $myName;
 ?>

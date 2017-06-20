@@ -7,4 +7,17 @@ echo $string_one;
 echo $string_two;
 echo $string_three;
 
+$a = "3";
+$a += "5";
+
+$b= "Hello";
+$b.= " There\n";
+var_dump($a); //even though the number is encased in "", $a is still int
+echo ($b);
+$question = "What is $a + 5?";
+echo $question;
+echo "$a + $a";
+// php does not care about white spaces
+// concatenating assignment operator ('.='), which appends the argument on the right side to the argument on the left side
+
 ?>

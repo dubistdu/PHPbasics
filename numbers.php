@@ -10,4 +10,10 @@ $float_two=3.2;
 var_dump($float_one+$float_two);
 var_dump($float_one+$float_two+3+.4);
 
+$a=5;
+$b=10;
+var_dump($a++);
+var_dump(++$a);
+var_dump(--$a);
+var_dump($a--);
 ?>

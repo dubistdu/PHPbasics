@@ -38,7 +38,10 @@ $display_name = "Jasmine";
         </section>
     </div>
     <section class="footer text-center">
-      &copy; 2017 <?php echo $display_name; ?>
+      &copy; <?php date_default_timezone_set("UTC");
+       echo date('Y') . " ";
+       echo $display_name . " ";
+       echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());?>
     </section>
   </body>
 </html>

@@ -31,10 +31,13 @@ $display_name = "Jasmine";
           <h1>My First PHP Page</h1>
 
           <h2>Unit Conversion</h2>
+            <?php include 'inc/units.php'; ?>
 
           <hr />
 
           <h2>Daily Exercise</h2>
+            <?php include 'inc/exercise.php'; ?>
+
         </section>
     </div>
     <section class="footer text-center">

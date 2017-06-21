@@ -8,23 +8,24 @@ $exercise5 = 'Convert Kilometers to Miles';
 $exercise6 = 'Month long string of the day';
 $exercise7 = 'String of the day with levels';
 // create a variable containing the day of the week
+date_default_timezone_set("UTC");
 $day = date('N');
 $day = 6;
 // use an if statement to test fo the day of the week
 if ($day == 1) {
- echo $exercise1;   
+ echo $exercise1;
 } elseif ($day == 2) {
- echo $exercise2;   
+ echo $exercise2;
 } elseif ($day == 3) {
- echo $exercise3;   
+ echo $exercise3;
 } elseif ($day == 4) {
- echo $exercise4;   
+ echo $exercise4;
 } elseif ($day == 5) {
- echo $exercise5;   
+ echo $exercise5;
 } elseif ($day == 6) {
- echo $exercise6;   
+ echo $exercise6;
 } elseif ($day == 7) {
- echo $exercise7;   
+ echo $exercise7;
 }
 // display the corresponding exercise string
 ?>

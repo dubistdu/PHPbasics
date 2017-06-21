@@ -19,7 +19,7 @@ echo $question;
 echo "$a + $a";
 // php does not care about white spaces
 // concatenating assignment operator ('.='), which appends the argument on the right side to the argument on the left side
-
+//in php '.' concatenates strings '+' is reserved for math. That's why even number strings will return integer when '+'is used
 $myName="Jasmine";
 $myName.=" Frantz";
 $myName.=" ,Mom!";

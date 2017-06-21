@@ -1,3 +1,7 @@
+<?php
+$display_name = "Jasmine";
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,7 +16,7 @@
           <div class="avatar">
             <img src="img/logo.png" alt="Alt For Image">
           </div>
-          <h1><?php echo "Yo Jas!"; ?></h1>
+          <h1><?php echo $display_name; ?></h1>
           <h1>Name</h1>
           <p>Contact:<br />
           <a href="mailto:">EMAIL</a></p>
@@ -34,7 +38,7 @@
         </section>
     </div>
     <section class="footer text-center">
-      &copy; 2016 Treehouse Island, Inc.
+      &copy; 2017 <?php echo $display_name; ?>
     </section>
   </body>
 </html>

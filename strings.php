@@ -24,4 +24,15 @@ $myName="Jasmine";
 $myName.=" Frantz";
 $myName.=" ,Mom!";
 echo $myName;
+
+$firstName = "\nRasmus";
+$lastName = "Lerdorf";
+$fullName=$firstName ." ". $lastName;
+$fullName.=" was the original creator of PHP\n";
+echo $fullName;
+
+//php if statement
+//if (condition) {
+//     code to be executed if condition is true;
+// }
 ?>
